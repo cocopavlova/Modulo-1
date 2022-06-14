@@ -17,3 +17,8 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
