@@ -5,11 +5,16 @@ body {
 h1 {
     color: #46484c;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    color: #025157;
+    text-align: center;
 }
 
 p {
     color: #8b8b8bcc;
-    font-family: verdana;
+    font-family: 'Stoke', serif;
     font-size: 20px;
 }
 
@@ -18,28 +23,52 @@ button {
     background-color: #025157;
 }
 
+.header {
+    /*margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    margin: 40px 20px 0
+    font-size: 0;
+    
+      }
+
+li {
+    display: inline;
+    margin: 25px;
+    color:#025157;
+}
+
+   
+.header > * {
+    display: inline-block
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    font-family: sans-serif;
+    color: #025157;
+}
+
+.logo {
+    width: 15%;
+
+  }
+
+.logo > img {
+    width: 15%;
+}
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
   }
 
-.header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-      }
-.main {
-        margin-top: 140px;
-        text-align: center;
-      }
       .navbar {
         width: 70%;
-        text-align: center;
+        text-align: left;
         color: #025157;
         font-weight: 500;
+        height: 45 px;
+        font-family: sans-serif
       }
       
       .actions {
@@ -78,4 +107,9 @@ img {
         padding-bottom: 12px;
         border: 0;
         border-radius: 5px;
+      }
+
+      .main {
+        margin-top: 140px;
+        text-align: center;
       }
