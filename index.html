@@ -18,27 +18,29 @@
   </head>
 
   <body>
-    <header class="header">
-      <!-- Logo con link a la página principal -->
-      <a href="/" class="logo">
-        <img src= "https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
-      </a>
-      <!-- Menú de navegación -->
-      <nav class="navbar">
-        <ul>
-          <li>Platform</li>
-          <li>Pricing</li>
-          <li>Customers</li>
-          <li>Resources</li>
-          <li>About</li>
-        </ul>
-      </nav>
-      <!-- Acciones de usuario -->
-      <div class="actions">
-        <a href="">Sign In</a>
-        <button>Start free trial</button>
-      </div>
-    </header>
+    <section class="fixed-header">
+        <header class="header">
+          <!-- Logo con link a la página principal -->
+          <a href="/" class="logo">
+            <img src= "https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+          </a>
+          <!-- Menú de navegación -->
+          <nav class="navbar">
+            <ul>
+              <li>Platform</li>
+              <li>Pricing</li>
+              <li>Customers</li>
+              <li>Resources</li>
+              <li>About</li>
+            </ul>
+          </nav>
+          <!-- Acciones de usuario -->
+          <div class="actions">
+            <a href="">Sign In</a>
+            <button>Start free trial</button>
+          </div>
+        </header>
+      </section>
     <!-- Esto es lo que se verá en el navegador web -->
     <section class="main">
     <h1>
@@ -68,6 +70,7 @@
     </section>
      <!-- Contenedor de video -->
   <section class="promo">
+    <article class="explanatory-video">
     <video
       controls
       poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
@@ -76,13 +79,17 @@
     <source
     type="video/webm"
     src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-  />
+    />
   <source
     type="video/mp4"
     src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-  />
-  
+    />
   </video>
+  <img
+  src= "https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+  alt= "imagen flecha"
+  />  
+  </article>
   <article class="publish">
     <h3>
       Publish your blog in minutes, not hours
@@ -101,5 +108,6 @@
     </form>
   </article>
   </section>
+  
 </body>
 </html>
