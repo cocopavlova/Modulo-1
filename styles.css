@@ -113,3 +113,10 @@ img {
         margin-top: 140px;
         text-align: center;
       }
+
+    .section-ads {
+    display:flex;
+    justify-content: space-evenly;
+  
+
+    }
